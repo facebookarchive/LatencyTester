@@ -24,7 +24,7 @@
         <Option name="DiscardUnusedSection" value="0"/>
         <Option name="UserEditLinkder" value=""/>
         <Option name="UseMemoryLayout" value="1"/>
-        <Option name="LTO" value="1"/>
+        <Option name="LTO" value="0"/>
         <Option name="IsNewStartupCode" value="1"/>
         <Option name="Library" value="Not use C Library"/>
         <Option name="UserEditLinker" value="--entry=main; "/>
@@ -66,7 +66,7 @@
       <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
       <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
       <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
-      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F10x_LD_32.elf"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="./stm32f10x_ld_32.elf"/>
     </DebugOption>
     <ExcludeFile/>
   </Target>
@@ -88,8 +88,8 @@
   </Components>
   <Files>
     <File name="stm_usb/inc/usb_int.h" path="stm_usb/inc/usb_int.h" type="1"/>
-    <File name="stm_usb/inc/usb_init.h" path="stm_usb/inc/usb_init.h" type="1"/>
     <File name="oculus/inc" path="" type="2"/>
+    <File name="stm_usb/inc/usb_init.h" path="stm_usb/inc/usb_init.h" type="1"/>
     <File name="sample_packet.h" path="sample_packet.h" type="1"/>
     <File name="stm_usb/inc/usb_sil.h" path="stm_usb/inc/usb_sil.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_dbgmcu.c" path="stm_lib/src/stm32f10x_dbgmcu.c" type="1"/>
@@ -115,9 +115,9 @@
     <File name="platform_config.h" path="platform_config.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_gpio.c" path="stm_lib/src/stm32f10x_gpio.c" type="1"/>
     <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
-    <File name="stm_lib/inc/misc.h" path="stm_lib/inc/misc.h" type="1"/>
     <File name="stm_usb/src/usb_regs.c" path="stm_usb/src/usb_regs.c" type="1"/>
     <File name="usb/src/usb_pwr.c" path="usb/src/usb_pwr.c" type="1"/>
+    <File name="stm_lib/inc/misc.h" path="stm_lib/inc/misc.h" type="1"/>
     <File name="stm_usb/inc/otgd_fs_cal.h" path="stm_usb/inc/otgd_fs_cal.h" type="1"/>
     <File name="calibrate.c" path="calibrate.c" type="1"/>
     <File name="stm_usb/inc/otgd_fs_regs.h" path="stm_usb/inc/otgd_fs_regs.h" type="1"/>
@@ -148,12 +148,12 @@
     <File name="stm_lib/inc/stm32f10x_tim.h" path="stm_lib/inc/stm32f10x_tim.h" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
     <File name="feature_reports.c" path="feature_reports.c" type="1"/>
-    <File name="stm_lib/src/stm32f10x_tim.c" path="stm_lib/src/stm32f10x_tim.c" type="1"/>
     <File name="hw_config.h" path="hw_config.h" type="1"/>
     <File name="stm32_it.h" path="stm32_it.h" type="1"/>
+    <File name="stm_lib/src/stm32f10x_tim.c" path="stm_lib/src/stm32f10x_tim.c" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
-    <File name="usb/src" path="" type="2"/>
     <File name="segment.c" path="segment.c" type="1"/>
+    <File name="usb/src" path="" type="2"/>
     <File name="stm_lib/src/stm32f10x_spi.c" path="stm_lib/src/stm32f10x_spi.c" type="1"/>
     <File name="trigger_packet.c" path="trigger_packet.c" type="1"/>
     <File name="usb/inc" path="" type="2"/>
@@ -161,8 +161,8 @@
     <File name="feature_reports.h" path="feature_reports.h" type="1"/>
     <File name="stm_usb/src/usb_sil.c" path="stm_usb/src/usb_sil.c" type="1"/>
     <File name="cmsis/core_cm3.c" path="cmsis/core_cm3.c" type="1"/>
-    <File name="trigger_packet.h" path="trigger_packet.h" type="1"/>
     <File name="usb" path="" type="2"/>
+    <File name="trigger_packet.h" path="trigger_packet.h" type="1"/>
     <File name="stm32_it.c" path="stm32_it.c" type="1"/>
     <File name="stm_usb/inc/otgd_fs_dev.h" path="stm_usb/inc/otgd_fs_dev.h" type="1"/>
     <File name="oculus/inc/i2c.h" path="oculus/inc/i2c.h" type="1"/>
