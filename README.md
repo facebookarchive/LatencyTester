@@ -1,6 +1,8 @@
 Latency Tester
 ==============
 
+![Latency Tester](https://www.oculusvr.com/wp-content/themes/oculus/img/oculus-latency-tester.png)
+
 Firmware, Schematics, and Mechanicals for the Oculus Latency Tester.
 
 https://www.oculusvr.com/order/latency-tester/
