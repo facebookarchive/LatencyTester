@@ -25,5 +25,5 @@ that is printable on low cost 3D printers.
 Schematics
 ----------
 
-The Schematics folder contains an image of the schematic currently, but will
-be updated with a BOM and EAGLE Cad source for the PCB.
+The Schematics folder contains an image of the schematic, as well as Eagle CAD files
+of the schematic and board layout.
