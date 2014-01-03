@@ -16,6 +16,10 @@ the gcc-arm-embedded toolchain.
 The ST-Link/V2 is the cheapest way to load firmware onto a Latency Tester
 board, though any SWD compatible programmer should work.
 
+Note that the USB Product ID is set to 0x0101, which matches the production
+version of the Latency Tester.  If you modify the firmware in a way that
+changes the USB interface, please change the Product ID to 0x0100.
+
 Mechanical
 ----------
 
