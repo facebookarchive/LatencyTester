@@ -45,3 +45,8 @@ Schematics
 
 The Schematics folder contains an image of the schematic, as well as Eagle CAD files
 of the schematic and board layout.
+
+You can also order PCBs directly from OSH Park:
+
+* Main PCB: http://oshpark.com/shared_projects/SHWtp0zm
+* Sensor PCB: http://oshpark.com/shared_projects/nyOrdIp9
