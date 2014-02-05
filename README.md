@@ -38,7 +38,8 @@ Mechanical
 ----------
 
 The Mechanical folder contains STLs of a version of the Latency Tester housing
-that is printable on low cost 3D printers.
+that is printable on low cost 3D printers as well as STEP files of the original
+injection molded housing.
 
 Schematics
 ----------
